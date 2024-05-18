@@ -1,34 +1,31 @@
-# Students Exam Performance Analysis
+# Iris Veri Seti ile Veri Analizi
 
-This project aims to analyze students' exam performance using the 'Students Performance in Exams' dataset. Data cleaning, exploratory data analysis (EDA), basic statistical analysis, data visualization and feature engineering steps were applied in the project.
+Bu proje, `Iris` veri setini kullanarak çiçek türlerinin çeşitli özelliklerini analiz etmeyi amaçlamaktadır. Projede, veri temizleme, keşifsel veri analizi (EDA), temel istatistiksel analizler, veri görselleştirme ve özellik mühendisliği adımları uygulanmıştır.
 
-## Data set
-- **Source:** [Kaggle - Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
-- **Features:**
-   - gender: Student's gender
-   - race/ethnicity: Student's race/ethnicity
-   - parental level of education: Parents' education level
-   - lunch: Student's lunch type
-   - test preparation course: Whether a test preparation course was taken or not
-   - math score: Math exam score
-   - reading score: Reading exam score
-   - writing score: Writing exam score
+## Veri Seti
+- **Kaynak:** [UCI Machine Learning Repository - Iris Data Set](https://archive.ics.uci.edu/ml/datasets/iris)
+- **Özellikler:**
+  - sepal length (cm): Çanak yaprağı uzunluğu
+  - sepal width (cm): Çanak yaprağı genişliği
+  - petal length (cm): Taç yaprağı uzunluğu
+  - petal width (cm): Taç yaprağı genişliği
+  - target: Çiçek türü (0: Setosa, 1: Versicolor, 2: Virginica)
 
-## Analysis Steps
-1. **Data Set Selection**
-2. **Creating a Google Colab File**
-3. **Exploratory Data Analysis (EDA)**
-4. **Data Cleaning and Preprocessing**
-5. **Basic Statistical Analyzes**
-6. **Visualization**
-7. **Analysis of Relationships Between Variables**
-8. **Feature Engineering**
+## Analiz Adımları
+1. **Veri Seti Seçimi**
+2. **Google Colab Dosyası Oluşturma**
+3. **Keşifsel Veri Analizi (EDA)**
+4. **Veri Temizleme ve Ön İşleme**
+5. **Temel İstatistiksel Analizler**
+6. **Görselleştirme**
+7. **Değişkenler Arası İlişkilerin Analizi**
+8. **Özellik Mühendisliği (Feature Engineering)**
 
-## How to use
-1. Clone or download this repository to your own computer.
-2. Go to [Google Colab](https://colab.research.google.com/) and upload the `VeriAnaliziProjesi.ipynb` file.
-3. Perform analyzes by running the codes in the Colab file. The Colab file will automatically download the dataset from Kaggle.
+## Nasıl Kullanılır
+1. Bu depoyu kendi bilgisayarınıza klonlayın veya indirin.
+2. [Google Colab](https://colab.research.google.com/) sitesine gidin ve `VeriAnaliziProjesi.ipynb` dosyasını yükleyin.
+3. Colab dosyasındaki kodları çalıştırarak analizleri gerçekleştirin. Colab dosyası veri setini otomatik olarak indirecektir.
 
-## Key Findings
-- A high correlation was found between math, reading and writing scores.
-- Factors such as students' gender and whether a test preparation course has been taken affect exam performance.
+## Temel Bulgular
+- Çanak yaprağı uzunluğu ve genişliği ile taç yaprağı uzunluğu ve genişliği arasında yüksek bir korelasyon bulunmuştur.
+- Çiçek türleri arasındaki farklar, sepal ve petal ölçümleri ile belirlenebilir.
