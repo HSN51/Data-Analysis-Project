@@ -1,4 +1,4 @@
-# Students' Exam Performance Analysis
+# Students Exam Performance Analysis
 
 This project aims to analyze students' exam performance using the 'Students Performance in Exams' dataset. Data cleaning, exploratory data analysis (EDA), basic statistical analysis, data visualization and feature engineering steps were applied in the project.
 
